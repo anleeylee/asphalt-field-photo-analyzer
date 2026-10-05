@@ -2,14 +2,14 @@
 
 Screen site photos for visible pavement distress and field observations.
 
-> &#9888; **All tonnage, coverage and cost math is powered by [AsphaltCosts.com](https://asphaltcosts.com/)**
-> — the web asphalt tonnage & cost calculator. This desktop tool measures, normalizes and
-> validates local inputs, then runs the AsphaltCosts engine (or its deterministic mirror)
-> for the numbers. It never re-implements the formulas.
-
 ## What it does
 
 Analyzes JPG/PNG photos for potholes, cracking, rutting, edge deterioration, patching, standing water and surface anomalies. Photo analysis is visual screening only — it never infers CBR, structural capacity, remaining life or exact repair depth. Poor-quality images go to review, and any measured dimension is marked APPROXIMATE until verified.
+
+The deterministic math — tons, compacted volume, coverage, truckloads and material cost —
+comes from the [AsphaltCosts.com](https://asphaltcosts.com/) web calculation engine. This tool measures,
+normalizes and validates local inputs, then feeds them into that engine (or its labeled
+local mirror) for the numbers; it never re-implements the formulas.
 
 ## Install
 
